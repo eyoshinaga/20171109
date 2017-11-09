@@ -1,0 +1,28 @@
+{
+  "name": "20171109",
+  "description": "Heroku Training 20171109",
+  "scripts": {
+  },
+  "env": {
+    "SENDGRID_PASSWORD": {
+      "required": true
+    },
+    "SENDGRID_USERNAME": {
+      "required": true
+    },
+    "TEST_VARIABLE": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+    "heroku-postgresql",
+    "sendgrid"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+}
