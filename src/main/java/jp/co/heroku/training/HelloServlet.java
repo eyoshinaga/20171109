@@ -1,4 +1,4 @@
-package jp.co.flect.heroku.training;
+package jp.co.heroku.training;
 
 import java.io.IOException;
 
